@@ -1,0 +1,45 @@
+.depoimentos {
+    text-align: center;
+}
+.depoimentos__container {
+    background: var(--cor04);
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem 6rem 3rem 6rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.depoimentos__titulo {
+    font-size: 26px;
+    margin: 0.6rem auto;
+}
+
+.depoimentos__subtitulo {
+    color: var(--cor02);
+    font-weight: 600;
+}
+
+/*****************************/
+/********** PESSOA **********/
+/***************************/
+.pessoa__imagem {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 1rem auto;
+}
+
+.pessoa__imagem--avatar {
+    background: url(../img/avatar.png) no-repeat center / cover;
+}
+
+.pessoa__titulo {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.pessoa__texto {
+    font-size: 14px;
+    color: var(--cor01);
+}

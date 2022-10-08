@@ -1,0 +1,34 @@
+.destaque {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+}
+
+.destaque__container {
+    padding: 10rem 0;
+}
+
+.destaque__subtitulo {
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 18px;
+    background-color: var(--cor02);
+    width: 70px;
+    padding: 0.3rem;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.destaque__titulo {
+    font-weight: 600;
+    margin: .5rem 0 2rem 0;
+    font-size: 48px;
+}
+
+.destaque__texto {
+    color: var(--cor01);
+    font-size: 20px;
+    width: 52%;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}

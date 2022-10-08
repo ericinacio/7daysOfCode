@@ -1,0 +1,31 @@
+.metricas {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.metricas__container {
+    width: 300px;
+    height: 200px;
+    padding: 0 5rem;
+}
+
+.metricas__titulo {
+    color: var(--cor02);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.metricas__subtitulo {
+    color: var(--preto);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.metricas__texto {
+    color: var(--cor01);
+    line-height: 1.5rem;
+}

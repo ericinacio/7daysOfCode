@@ -1,0 +1,83 @@
+.cabecalho {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--branco);
+    box-shadow: 0.5px 1.5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho__container {
+    width: calc(80% + 1rem);
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+}
+
+/****************************/
+/********** LINKS **********/
+/**************************/
+.cabecalho__link {
+    color: var(--cor01);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    transition: 0.3s;
+    padding-bottom: 0.1rem;
+    border-bottom: 2px solid transparent;
+}
+
+.cabecalho__link:hover {
+    color: var(--cor02);
+    border-bottom: 2px solid var(--cor02);
+}
+.cabecalho__link:active {
+    transform: scale(1.1);
+}
+
+/***************************/
+/********* BOTÕES *********/
+/*************************/
+.cabecalho__botao {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 0.5rem;
+    text-align: center;
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+.cabecalho__botao:active {
+    transform: scale(1.1);
+}
+
+.cabecalho__botao--entrar {
+    background-color: transparent;
+    color: var(--cor01);
+    border: 2px solid transparent;
+}
+
+.cabecalho__botao--entrar:hover {
+    background-color: transparent;
+    border: 2px solid var(--cor03);
+    color: var(--preto);
+}
+
+.cabecalho__botao--cadastrar {
+    background-color: var(--cor02);
+    color: var(--branco);
+}
+
+.cabecalho__botao--cadastrar:hover {
+    background-color: var(--cor03);
+    color: var(--branco);
+}

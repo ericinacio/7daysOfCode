@@ -1,0 +1,25 @@
+:root {
+    --branco: #f9f9f9;
+    --preto: #0f0f0f;
+
+    --cor01: #798294;
+    --cor02: #8e2424;
+    --cor03: #5c1717;
+    --cor04: rgba(143, 36, 36, 0.1);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--branco);
+}
+
+img {
+    user-select: none;
+}
+
+::selection {
+    background-color: var(--cor03);
+    color: var(--branco);
+}

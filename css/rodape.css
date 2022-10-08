@@ -1,0 +1,9 @@
+.rodape {
+    width: 100%;
+    height: 100px;
+}
+
+.rodape__texto {
+    color: var(--cor01);
+    text-align: center;
+}
